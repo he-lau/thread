@@ -1,0 +1,3 @@
+touch  command.txt
+gcc -pthread appli3.c -o appli3
+
