@@ -1,3 +1,15 @@
 touch  command.txt
 gcc -pthread appli3.c -o appli3
 
+
+--------------------------------------------------------
+
+- creation des threads : pthread_create
+- execution du thread
+- sortie du thread
+
+concurrrence présente car acces même ressources, gérer par le noyau ou l'utilisateur
+
+exercice à faire : tabelau de thread pour tester le mutex
+
+fonctions utilisées : create, join, exit(<(void *) valeur de retour>), valeur de retour de exit exploité avec join
